@@ -35,7 +35,7 @@ setup(
     description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
     entry_points={
         'console_scripts': [
-            'flask_platform=flask_platform.cli:main',
+            'flask_platform=run.py',
         ],
     },
     install_requires=requirements,
